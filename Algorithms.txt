@@ -1,0 +1,55 @@
+1. ALGORITHMS/PSEUDOCODE
+
+1.1 Naive-Bayes
+
+1.1.1 Naive-Bayes Training
+
+    i) Read training dataset (clean_data_train.csv)
+    ii) Transform inputs(sentences) into vectors using a "Bag of Words" vectorizer
+    iii) Train using Naive-Bayes. Fit transformed inputs to outputs.
+    iv) Save vectorizer and model for usage and metrics.
+
+1.1.2 Naive-Bayes Usage
+
+    i) Restore vectorizer and trained Naive-Bayes model
+    ii) Transform input(sentence) into vector using the vectorizer
+    iii) Use model to predict output
+
+1.1.3 Naive-Bayes Metrics
+
+    i) Restore vectorizer and trained Naive-Bayes model
+    ii) Read test dataset (clean_data_test.csv)
+    ii) Transform test inputs(sentences) into vector using the vectorizer
+    iii) Use model to predict the outputs for test inputs
+    iv) Compare the expected output with the model's output to derive various performance metrics
+
+1.2 LinearSVC
+
+1.2.1 LinearSVC Training
+
+    i) Read training dataset (clean_data_train.csv)
+    ii) Transform inputs(sentences) into vectors using a "Bag of Words" vectorizer
+    iii) Train using LinearSVC. Fit transformed inputs to outputs.
+    iv) Save vectorizer and model for usage and metrics.
+
+1.2.2 LinearSVC Usage
+
+    i) Restore vectorizer and trained LinearSVC model
+    ii) Transform input(sentence) into vector using the vectorizer
+    iii) Use model to predict output
+
+1.2.3 LinearSVC Metrics
+
+    i) Restore vectorizer and trained LinearSVC model
+    ii) Read test dataset (clean_data_test.csv)
+    ii) Transform test inputs(sentences) into vector using the vectorizer
+    iii) Use model to predict the outputs for test inputs
+    iv) Compare the expected output with the model's output to derive various performance metrics
+
+NB: The same dataset is used to train and test both models.
+
+1.3 OCR
+
+1.3.1 Tesseract OCR
+
+    i) Leverage Tesseract's trained neural network to extract text from images

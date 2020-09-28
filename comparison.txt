@@ -1,0 +1,24 @@
+Linear SVC Classification Report
+              precision    recall  f1-score   support
+
+ Not-Profane       0.87      1.00      0.93     35619
+     Profane       0.96      0.42      0.59      9018
+
+    accuracy                           0.88     44637
+   macro avg       0.92      0.71      0.76     44637
+weighted avg       0.89      0.88      0.86     44637
+
+Linear SVC Accuracy  0.8796514102650268
+
+
+Naive-Bayes Classification Report
+              precision    recall  f1-score   support
+
+ Not-Profane       0.90      0.92      0.91     35619
+     Profane       0.66      0.60      0.63      9018
+
+    accuracy                           0.86     44637
+   macro avg       0.78      0.76      0.77     44637
+weighted avg       0.85      0.86      0.85     44637
+
+Naive-Bayes Accuracy  0.8571588592423326
